@@ -1,0 +1,22 @@
+{
+  "name": "new-ieee",
+  "version": "1.0.0",
+  "description": "Iowa State IEEE's New Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IowaStateIEEE/IowaStateIEEE.github.io.git"
+  },
+  "author": "@IowaStateIEEE",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/IowaStateIEEE/IowaStateIEEE.github.io/issues"
+  },
+  "homepage": "https://github.com/IowaStateIEEE/IowaStateIEEE.github.io#readme",
+  "dependencies": {
+    "bulma": "^0.7.1"
+  }
+}
