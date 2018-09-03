@@ -1,22 +1,27 @@
 {
   "name": "new-ieee",
-  "version": "1.0.0",
-  "description": "Iowa State IEEE's New Website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IowaStateIEEE/IowaStateIEEE.github.io.git"
-  },
-  "author": "@IowaStateIEEE",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/IowaStateIEEE/IowaStateIEEE.github.io/issues"
-  },
-  "homepage": "https://github.com/IowaStateIEEE/IowaStateIEEE.github.io#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bulma": "^0.7.1"
+    "bulma": "^0.7.1",
+    "bulma-extensions": "^2.2.2",
+    "moment": "^2.22.2",
+    "node-sass-chokidar": "^1.3.3",
+    "npm-run-all": "^4.1.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-helmet": "^5.2.0",
+    "react-scripts": "1.1.5",
+    "styled-components": "^3.4.5"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
