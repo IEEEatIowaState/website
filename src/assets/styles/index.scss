@@ -1,2 +1,12 @@
 @import 'bulma/bulma';
-// @import 'bulma-extensions/extensions';
+
+@import 'header.scss';
+@import 'about.scss';
+
+@import 'colors.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
