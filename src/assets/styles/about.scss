@@ -1,10 +1,4 @@
-.light-background {
-  background-color: #FCFCFC;
-}
-
-.dark-background {
-  background-color: #EFEFEF;
-}
+@import 'background.scss';
 
 .is-vertically-centered {
   display: flex;

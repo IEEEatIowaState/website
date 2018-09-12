@@ -1,0 +1,19 @@
+@import 'background.scss';
+
+.hero-image {
+  background: url('../images/hero-image.jpg') center center;
+}
+
+.home-join-button {
+  margin: 20px;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.is-centered {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}

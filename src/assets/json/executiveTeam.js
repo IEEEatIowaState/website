@@ -1,12 +1,12 @@
 import president from '../images/boardMembers/jared-griffin.jpg';
 // import vicePresident from '';
 import treasurer from '../images/boardMembers/ben-gisler.png';
-// import secretary from '';
+import secretary from '../images/boardMembers/ethan-williams.jpg;';
 // import industryRelations from '';
-// import membership from '';
-// import eventsActivities from '';
+import membership from '../images/boardMembers/michael-scholl.jpg';
+import eventsActivities from '../images/boardMembers/nicholas-chockalingam.jpg';
 // import esc from '';
-// import ee from '';
+import ee from '../images/boardMembers/nihaal-sitaraman.jpg';
 // import cpre from '';
 // import fundraising from '';
 import web from '../images/boardMembers/maxwell-talley.jpg';
@@ -38,8 +38,8 @@ var members = [
     "position": "Secretary",
     "name": "Ethan Williams",
     "email": "ethwillz@iastate.edu",
-    "image": 'secretary',
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
+    "image": secretary,
+    "bio": "Ethan is a senior in Computer Engineering focusing in backend software development. Previous intern at Nexteer Automotive and Spreetail. Hobbies include running, traveling, and coding.",
   },
   {
     "position": "Industry Relations",
@@ -52,15 +52,15 @@ var members = [
     "position": "Membership",
     "name": "Michael Scholl",
     "email": "mlscholl@iastate.edu",
-    "image": 'membership',
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
+    "image": membership,
+    "bio": "Michael is a senior studying Computer Engineering! Michael is from Wheaton, Illinois and loves running, reading, gaming, and long walks on the beach. He plans to attend this upcoming career fair to figure out his plans after his last semester of college. Michael is excited to spend his last semester as the membership chair for IEEE!",
   },
   {
     "position": "Events and Activities",
     "name": "Nicholas Chockalingam",
     "email": "nickchoc@iastate.edu",
-    "image": 'eventsActivities',
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
+    "image": eventsActivities,
+    "bio": "Nicholas is a Sophomore in Software Engineering from Rockford, Illinois. Along with being the Events and Activities Chair, Nicholas is the Public Relations Chair for HackISU and is a research assistant in the Civil Engineering department at Iowa State. Last summer he had an internship with United Technologies Aerospace Systems. In his freetime, Nicholas likes to play soccer with friends, go on bike rides, and watch movies.",
   },
   {
     "position": "ESC Representative",
@@ -73,8 +73,8 @@ var members = [
     "position": "EE Curriculum & Project Chair",
     "name": "Nihaal Sitaraman",
     "email": "nihaals@iastate.edu",
-    "image": 'ee',
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
+    "image": ee,
+    "bio": "Nihaal is a Senior in Electrical Engineering from Rolling Meadows, IL. In addition to being the Project Co-Chair, he also takes part in various other clubs and competitions. He is the ESC Representative for Critical Tinkers, a member of Audio and Arduino club, and takes part in HackISU, and is an Eagle Scout. His background consists primarily of hardware, and he wants to focus on Semiconductors. He has interned as a Data Analyst for an IT staffing company, and as an R&D intern for a company in India that makes film capacitors. In his free time, Nihaal works on his projects (mostly related to audio), goes on hikes and bike rides, golfs, and plays PC games.",
   },
   {
     "position": "CprE Curriculum Chair",
