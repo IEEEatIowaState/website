@@ -5,10 +5,10 @@ import secretary from '../images/boardMembers/ethan-williams.jpg';
 import industryRelations from '../images/boardMembers/alec-harrison.jpg';
 import membership from '../images/boardMembers/michael-scholl.jpg';
 import eventsActivities from '../images/boardMembers/nicholas-chockalingam.jpg';
-// import esc from '';
+import esc from '../images/boardMembers/temp-image.jpg';
 import ee from '../images/boardMembers/nihaal-sitaraman.jpg';
 import cpre from '../images/boardMembers/claudia-athens.jpg';
-// import fundraising from '';
+import fundraising from '../images/boardMembers/temp-image.jpg';
 import web from '../images/boardMembers/maxwell-talley.jpg';
 import project from '../images/boardMembers/dennis-xu.jpg';
 
@@ -25,7 +25,7 @@ var members = [
     "name": "Amir Hamza",
     "email": "ieeepres@iastate.edu",
     "image": vicePresident,
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
+    "bio": "Amir is an international student at Iowa State University originally from Islamabad, Pakistan, and he's a sophomore in Computer Engineering. Outside IEEE, Amir serves as an active control's team member for Cyclone Space Mining and avionics team member for Cyclone Space Launch Initiative. In addition to that, Amir has previously served at key leadership position which includes, Cultural and Engineer's week Ambassador, Head Ambassador for the Engineering Career Fair 2017, ISSO Outreach Ambassador, IFYE Coordinator and DIS Team Leader. Moreover, Amir has also served as the Membership Chair and New Student Coordinator for the Pakistan Student Association.",
   },
   {
     "position": "Treasurer",
@@ -66,7 +66,7 @@ var members = [
     "position": "ESC Representative",
     "name": "Isaiah Exley-Schuman",
     "email": "isaiahe@iastate.edu",
-    "image": 'esc',
+    "image": esc,
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
   },
   {
@@ -87,7 +87,7 @@ var members = [
     "position": "Fundraising Chair",
     "name": "Robert Buckley",
     "email": "rbuckley@iastate.edu",
-    "image": 'fundraising',
+    "image": fundraising,
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
   },
   {

@@ -21,7 +21,7 @@ const createMemberCards = () => {
           <div className='card-content'>
             <div className='media'>
               <div className='media-content'>
-                <p className='title is-4'>{member.name}</p>
+                <p className='title is-5'>{member.name}</p>
                 <p className='subtitle is-6'>
                   <a href='mailto:{member.email}'>
                     {member.position}
@@ -31,26 +31,42 @@ const createMemberCards = () => {
             </div>
             <div className='content'>
               <button className='button modal-button is-info' onClick={() => {
-                let modal = document.getElementById(member.position);
-                modal.classList.add('is-active');
+                document.getElementById(member.position)
+                  .classList.add('is-active');
               }}>
                 Find Out More
               </button>
               <div className='modal' id={member.position}>
-                <div className='modal-background'></div>
+                <div className='modal-background' onClick={() => {
+                  document.getElementById(member.position)
+                    .classList.remove('is-active');
+                }}></div>
                 <div className='modal-content'>
-                  <article className='message'>
-                    <div className='message-header is-link'>
-                      {member.name}
-                      <button className='delete' aria-label='delete' onClick={() => {
-                        let modal = document.getElementById(member.position);
-                        modal.classList.remove('is-active');
-                      }}></button>
+                  <div className='card'>
+                    <header className='card-header'>
+                      <div className='card-header-title fix-card-header-title'>
+                        {member.name}
+                      </div>
+                      <a className='card-header-icon' aria-label='close'>
+                        <span className='icon' onClick={() => {
+                          document.getElementById(member.position)
+                            .classList.remove('is-active');
+                        }}>
+                          <i className='fas fa-times-circle is-large' aria-hidden='true'></i>
+                        </span>
+                      </a>
+                    </header>
+                    <div className='card-content'>
+                      <div className='content'>
+                        {member.bio}
+                      </div>
                     </div>
-                    <div className='message-body'>
-                      {member.bio}
-                    </div>
-                  </article>
+                    <footer className='card-footer'>
+                      <a href='{member.email}' className='card-footer-item'>
+                        Email
+                      </a>
+                    </footer>
+                  </div>
                 </div>
               </div>
             </div>
@@ -90,7 +106,7 @@ const About = () => (
           About Us
         </h1>
         <div className='has-text-centered'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus  sodales purus,vitae dictum orci. Sed in pretium neque. Fusce malesuada augue in feugiat faucibus. Nullam dolor metus, elementum in dignissim  a5non, maximus vel leo.
+        The Institute of Electrical and Electronics Engineers is the world’s largest professional technical society devoted to the advancement of technology. The ISU Chapter of IEEE is devoted to serving the students of the Electrical and Computer Engineering department.
         </div>
       </div>
     </div>
@@ -104,7 +120,7 @@ const About = () => (
             <div>
               <h4 className='is-size-4 has-text-right'>Why Join?</h4>
               <div className='has-text-right'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus  sodales purus,vitae dictum orci. Sed in pretium neque. Fusce malesuada augue in feugiat faucibus. Nullam dolor metus, elementum in dignissim  non, maximus vel leo. Nunc imperdiet dapibus lectus, a vehicula ante  feugiat in. Pellentesque egestas est sit amet volutpat elementum.
+                Our goals are met by hosting company information sessions, co-sponsoring curriculum forums, increasing interest in community involvement, and developing The Relay. To join ISU chapter of IEEE all you have to do is show up to the one of the chapter meetings. Meetings are held at 7 PM on Wednesdays in Coover 3043.
               </div>
             </div>
           </div>
