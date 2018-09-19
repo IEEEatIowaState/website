@@ -30,14 +30,34 @@ const createMemberCards = () => {
               </div>
             </div>
             <div className='content'>
-              {member.bio}
+              <button className='button modal-button is-info' onClick={() => {
+                let modal = document.getElementById(member.position);
+                modal.classList.add('is-active');
+              }}>
+                Find Out More
+              </button>
+              <div className='modal' id={member.position}>
+                <div className='modal-background'></div>
+                <div className='modal-content'>
+                  <article className='message'>
+                    <div className='message-header is-link'>
+                      {member.name}
+                      <button className='delete' aria-label='delete' onClick={() => {
+                        let modal = document.getElementById(member.position);
+                        modal.classList.remove('is-active');
+                      }}></button>
+                    </div>
+                    <div className='message-body'>
+                      {member.bio}
+                    </div>
+                  </article>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     )
-
-    console.log(i, i+1)
 
     if((i + 1) % 3 === 0 || (i + 1) === team.length) {
       list.push(
@@ -51,6 +71,12 @@ const createMemberCards = () => {
 
   return list;
 };
+
+const showModal = (position) => {
+  let modal = document.getElementById(position);
+  modal.classList.add('is-active');
+  console.log(modal.classList);
+}
 
 createMemberCards();
 

@@ -1,13 +1,13 @@
 import president from '../images/boardMembers/jared-griffin.jpg';
-// import vicePresident from '';
+import vicePresident from '../images/boardMembers/amir-hamza.jpg';
 import treasurer from '../images/boardMembers/ben-gisler.png';
-import secretary from '../images/boardMembers/ethan-williams.jpg;';
-// import industryRelations from '';
+import secretary from '../images/boardMembers/ethan-williams.jpg';
+import industryRelations from '../images/boardMembers/alec-harrison.jpg';
 import membership from '../images/boardMembers/michael-scholl.jpg';
 import eventsActivities from '../images/boardMembers/nicholas-chockalingam.jpg';
 // import esc from '';
 import ee from '../images/boardMembers/nihaal-sitaraman.jpg';
-// import cpre from '';
+import cpre from '../images/boardMembers/claudia-athens.jpg';
 // import fundraising from '';
 import web from '../images/boardMembers/maxwell-talley.jpg';
 import project from '../images/boardMembers/dennis-xu.jpg';
@@ -24,7 +24,7 @@ var members = [
     "position": "Vice President",
     "name": "Amir Hamza",
     "email": "ieeepres@iastate.edu",
-    "image": 'vicePresident',
+    "image": vicePresident,
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
   },
   {
@@ -32,7 +32,7 @@ var members = [
     "name": "Ben Gisler",
     "email": "bigisler@iastate.edu",
     "image": treasurer,
-    "bio": "I’m from Des Moines, Iowa, and very much enjoy digital logic, electornics, and computers. Great expectations of my senior year!",
+    "bio": "Ben's interests include electrical and electronics tinkering, digital logic, embedded systems, singing, and computers. He also enjoys cool weather, spring, fall, and thunderstorms.",
   },
   {
     "position": "Secretary",
@@ -45,8 +45,8 @@ var members = [
     "position": "Industry Relations",
     "name": "Alec Harrison",
     "email": "alech@iastate.edu",
-    "image": 'industryRelations',
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
+    "image": industryRelations,
+    "bio": "Alec Harrison is a Senior in computer engineering at Iowa State. He is from a small town with only 50 students in his graduating class. He has interned at the two companies with varying projects. He is focusing in the software side of computer engineering. In his free time he can be found playing with new projects, playing pc games, or just hanging out with friends.",
   },
   {
     "position": "Membership",
@@ -80,7 +80,7 @@ var members = [
     "position": "CprE Curriculum Chair",
     "name": "Claudia Athens",
     "email": "cathens@iastate.edu",
-    "image": 'cpre',
+    "image": cpre,
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
   },
   {
