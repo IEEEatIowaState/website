@@ -67,7 +67,7 @@ var members = [
     "name": "Isaiah Exley-Schuman",
     "email": "isaiahe@iastate.edu",
     "image": esc,
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
+    "bio": "I am an EE representing IEEE before the ESC. In my free time I repair audio and game systems and play games.",
   },
   {
     "position": "EE Curriculum & Project Chair",
@@ -81,21 +81,21 @@ var members = [
     "name": "Claudia Athens",
     "email": "cathens@iastate.edu",
     "image": cpre,
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
+    "bio": "Claudia is a senior in Computer Engineering from Des Moines, Iowa. Outside of IEEE, she’s the Secretary of Eta Kappa Nu, the Grace Hopper Chair of Digital Women, member of the ECpE Student Advisory Council, and a Peer Mentor for the ECSEL program. This past summer, Claudia was an intern at John Deere Dubuque Works, and she will be returning to John Deere this summer at their ISG office.",
   },
   {
     "position": "Fundraising Chair",
     "name": "Robert Buckley",
     "email": "rbuckley@iastate.edu",
     "image": fundraising,
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
+    "bio": "Robert is specializing in Control Systems, and applying them with embedded systems. He has interned at Greenlee and Nexteer Automotive. He also serves as the treasurer for Eta Kapa Nu",
   },
   {
     "position": "Web Chair",
     "name": "Maxwell Talley",
     "email": "mrtalley@iastate.edu",
     "image": web,
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris consectetur adipiscing elit.",
+    "bio": "Maxwell is a senior in software engineering from Shawnee, Kansas. In his free time, he likes to run, spend time with friends, and work on personal projects. Along with being Web Chair of IEEE, Max is a TA for SE 185. He spent the last two summers interning with Source Allies working in web and app development. He also spent last semester studying abroad in New Zealand.",
   },
   {
     "position": "Project Chair",
