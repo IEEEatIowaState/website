@@ -15,6 +15,22 @@ class Header extends React.Component {
     }))
   }
 
+  closeNav = () => {
+    this.setState(prevState => ({
+      isActive: false
+    }))
+  }
+
+  openModal = () => {
+    document.getElementById('header-modal')
+      .classList.add('is-active');
+  }
+
+  closeModal = () => {
+    document.getElementById('header-modal')
+      .classList.remove('is-active');
+  }
+
   render() {
     return (
       <div>
@@ -28,6 +44,7 @@ class Header extends React.Component {
           <NavLink
             className='navbar-item'
             to='/'
+            onClick={ this.closeNav }
           >
             <img
               src={logo}
@@ -46,6 +63,7 @@ class Header extends React.Component {
               className='navbar-item'
               to='/about'
               activeClassName='is-active'
+              onClick={ this.closeNav }
             >
               <span className='icon has-text-primary' style={{ marginRight: 5 }} >
                 <i className='fas fa-user'></i>
@@ -55,6 +73,7 @@ class Header extends React.Component {
             <NavLink
               className="navbar-item"
               to='/calendar'
+              onClick={ this.closeNav }
             >
               <span className="icon has-text-info" style={{ marginRight: 5 }}>
                 <i className="fa fa-calendar-alt"></i>
@@ -64,6 +83,7 @@ class Header extends React.Component {
             <NavLink
               className='navbar-item'
               to='/projects'
+              onClick={ this.closeNav }
             >
               <span className="icon has-text-warning" style={{ marginRight: 5 }}>
                 <i className="fa fa-laptop"></i>
@@ -72,20 +92,17 @@ class Header extends React.Component {
             </NavLink>
           </div>
           <div className="navbar-end">
-            <a className='button navbarButton is-link' onClick={() => {
-              document.getElementById('header-modal')
-                .classList.add('is-active');
-            }}>
+            <a
+              className='button navbarButton is-link'
+              onClick={ this.openModal }
+            >
               Join the Club
             </a>
           </div>
         </div>
       </nav>
       <div className='modal' id='header-modal'>
-        <div className='modal-background' onClick={() => {
-          document.getElementById('header-modal')
-            .classList.remove('is-active');
-        }}></div>
+        <div className='modal-background' onClick={ this.closeModal }></div>
         <div className='modal-content'>
           <div className='card'>
             <header className='card-header'>
@@ -93,10 +110,7 @@ class Header extends React.Component {
                 Join ISU@IEEE
               </div>
               <a className='card-header-icon' aria-label='close'>
-                <span className='icon' onClick={() => {
-                  document.getElementById('header-modal')
-                    .classList.remove('is-active');
-                }}>
+                <span className='icon' onClick={ this.closeModal }>
                   <i className='fas fa-times-circle is-large' aria-hidden='true'></i>
                 </span>
               </a>
@@ -118,9 +132,12 @@ class Header extends React.Component {
               </div>
             </div>
             <footer className='card-footer'>
-              <a href='{member.email}' className='card-footer-item'>
+              <a
+                href='{member.email}'
+                className='card-footer-item'
+              >
                 Email
-                      </a>
+              </a>
             </footer>
           </div>
         </div>
