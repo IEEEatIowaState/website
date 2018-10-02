@@ -11,7 +11,7 @@ import Router from './layout/Router';
 const Layout = ({ children }) => (
   <Site>
     <Helmet
-      title="Test Website with React and Bulma"
+      title="IEEE at Iowa State"
       meta={[
         { name: 'description', content: 'The Iowa State IEEE Student Branch website' },
       ]}
