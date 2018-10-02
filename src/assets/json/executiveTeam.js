@@ -67,7 +67,7 @@ var members = [
     "name": "Isaiah Exley-Schuman",
     "email": "isaiahe@iastate.edu",
     "image": esc,
-    "bio": "I am an EE representing IEEE before the ESC. In my free time I repair audio and game systems and play games.",
+    "bio": "Isaiah is in Electrical Engineering and represents IEEE before the ESC. In his free time, he repairs audio and game systems and plays games.",
   },
   {
     "position": "EE Curriculum & Project Chair",
