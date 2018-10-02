@@ -7,9 +7,12 @@ import boardMembers from '../assets/images/board-members.jpg';
 
 const list = [];
 var listRow = [];
+var email;
 
 const createMemberCards = () => {
   team.forEach((member, i) => {
+    email = 'mailto:' + member.email;
+    console.log(email);
     listRow.push(
       <div className='column is-one-third' key={member.position}>
         <div className='card'>
@@ -23,7 +26,7 @@ const createMemberCards = () => {
               <div className='media-content'>
                 <p className='title is-5'>{member.name}</p>
                 <p className='subtitle is-6'>
-                  <a href='mailto:{member.email}'>
+                  <a href={email}>
                     {member.position}
                   </a>
                 </p>
@@ -62,7 +65,7 @@ const createMemberCards = () => {
                       </div>
                     </div>
                     <footer className='card-footer'>
-                      <a href='{member.email}' className='card-footer-item'>
+                      <a href={email} className='card-footer-item'>
                         Email
                       </a>
                     </footer>
