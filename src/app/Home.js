@@ -1,21 +1,32 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import '../assets/styles/home.css';
 
 const Home = () => (
   <div>
     <section className='hero is-large hero-image'>
-      <div className='hero-body'>
-        <div className='container has-text-centered is-size-4'>
-          Want to network with companies and get free pizza in the process?
-        </div>
-        <div className='has-text-centered'>
-          <a className='button is-link is-medium home-join-button' onClick={() => {
-            document.getElementById('header-modal')
-              .classList.add('is-active');
-          }}>
-            Join the Club
-          </a>
+      <div className='opaque-background'></div>
+      <div className='hero-body no-side-padding'>
+        <div className='hero-body-color'>
+          <div className='container has-text-centered is-size-1 has-text-white'>
+            Want to network with companies and get free pizza in the process?
+          </div>
+          <div className='has-text-centered'>
+              <a className='button is-link is-medium home-join-button' onClick={() => {
+                document.getElementById('header-modal')
+                  .classList.add('is-active');
+              }}>
+                Join the Club
+              </a>
+              <NavLink
+                to='about'
+              >
+                <a className='button is-primary is-medium home-join-button'>
+                  Learn More
+                </a>
+              </NavLink>
+          </div>
         </div>
       </div>
     </section>

@@ -1,7 +1,26 @@
 @import 'background.scss';
 
 .hero-image {
-  background: url('../images/hero-image.jpg') center center;
+  background: linear-gradient(rgba(49, 49, 49, 0.50), rgba(49, 49, 49, 0.50)), url('../images/hero-image.jpg');
+  background-position: left center;
+  background-size: cover;
+  // background-color: lightblue;
+}
+
+.no-side-padding {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.opaque-background {
+  background-color: grey;
+  opacity: .5;
+  width: 100vh;
+  height: 100%;
+}
+
+.hero-body-color {
+  // background-color: grey;
 }
 
 .home-join-button {
