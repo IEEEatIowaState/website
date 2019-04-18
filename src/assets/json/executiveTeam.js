@@ -1,31 +1,34 @@
-import president from '../images/boardMembers/jared-griffin.jpg';
-import vicePresident from '../images/boardMembers/amir-hamza.jpg';
+
+import president from '../images/boardMembers/amir-hamza.jpg';
+import vicePresident from '../images/boardMembers/collins-ntwali.jpg';
 import treasurer from '../images/boardMembers/ben-gisler.png';
-import secretary from '../images/boardMembers/ethan-williams.jpg';
-import industryRelations from '../images/boardMembers/alec-harrison.jpg';
-import membership from '../images/boardMembers/michael-scholl.jpg';
-import eventsActivities from '../images/boardMembers/nicholas-chockalingam.jpg';
-import esc from '../images/boardMembers/temp-image.jpg';
-import ee from '../images/boardMembers/nihaal-sitaraman.jpg';
+import secretary from '../images/boardMembers/jared-griffin.jpg';
+import industryRelations from '../images/boardMembers/ryan-bush.jpg';
+import membership from '../images/boardMembers/magnus-anderson.jpg';
+import eventsActivities from '../images/boardMembers/jack-wilkinson.jpg';
+import esc from '../images/boardMembers/grayson-goss.jpg';
+import ee from '../images/boardMembers/zachary-besta.jpg';
 import cpre from '../images/boardMembers/claudia-athens.jpg';
-import fundraising from '../images/boardMembers/temp-image.jpg';
-import web from '../images/boardMembers/maxwell-talley.jpg';
-import project from '../images/boardMembers/dennis-xu.jpg';
+import fundraising from '../images/boardMembers/robert-buckley.png';
+import web from '../images/boardMembers/brett-altena.jpg';
+import project1 from '../images/boardMembers/dennis-xu.jpg';
+import project2 from '../images/boardMembers/shubham-sharma.jpg';
+
 
 var members = [
   {
     "position": "President",
-    "name": "Jared Griffin",
-    "email": "ieeepres@iastate.edu",
-    "image": president,
-    "bio": "Jared is a senior in Computer Engineering from Newton, IA. His technical background consists of web and app development from his internships. Jared enjoys playing disc golf in his free time.",
-  },
-  {
-    "position": "Vice President",
     "name": "Amir Hamza",
     "email": "ieeepres@iastate.edu",
-    "image": vicePresident,
+    "image": president,
     "bio": "Amir is an international student at Iowa State University originally from Islamabad, Pakistan, and he's a sophomore in Computer Engineering. Outside IEEE, Amir serves as an active control's team member for Cyclone Space Mining and avionics team member for Cyclone Space Launch Initiative. In addition to that, Amir has previously served at key leadership position which includes, Cultural and Engineer's week Ambassador, Head Ambassador for the Engineering Career Fair 2017, ISSO Outreach Ambassador, IFYE Coordinator and DIS Team Leader. Moreover, Amir has also served as the Membership Chair and New Student Coordinator for the Pakistan Student Association.",
+    },
+  {
+    "position": "Vice President",
+    "name": "Collins Ntwali",
+    "email": "ieeepres@iastate.edu",
+    "image": vicePresident,
+    "bio": "",
   },
   {
     "position": "Treasurer",
@@ -36,45 +39,45 @@ var members = [
   },
   {
     "position": "Secretary",
-    "name": "Ethan Williams",
-    "email": "ethwillz@iastate.edu",
+    "name": "Jared Griffin",
+    "email": "jgriffin@iastate.edu",
     "image": secretary,
-    "bio": "Ethan is a senior in Computer Engineering focusing in backend software development. Previous intern at Nexteer Automotive and Spreetail. Hobbies include running, traveling, and coding.",
+    "bio": "Jared is a senior in Computer Engineering from Newton, IA. His technical background consists of web and app development from his internships. Jared enjoys playing disc golf in his free time.",
   },
   {
     "position": "Industry Relations",
-    "name": "Alec Harrison",
-    "email": "alech@iastate.edu",
+    "name": "John Ryan Bush",
+    "email": "ryanbush@iastate.edu",
     "image": industryRelations,
-    "bio": "Alec Harrison is a Senior in computer engineering at Iowa State. He is from a small town with only 50 students in his graduating class. He has interned at the two companies with varying projects. He is focusing in the software side of computer engineering. In his free time he can be found playing with new projects, playing pc games, or just hanging out with friends.",
+    "bio": "",
   },
   {
     "position": "Membership",
-    "name": "Michael Scholl",
-    "email": "mlscholl@iastate.edu",
+    "name": "Magnus Anderson",
+    "email": "magnus@iastate.edu",
     "image": membership,
-    "bio": "Michael is a senior studying Computer Engineering! Michael is from Wheaton, Illinois and loves running, reading, gaming, and long walks on the beach. He plans to attend this upcoming career fair to figure out his plans after his last semester of college. Michael is excited to spend his last semester as the membership chair for IEEE!",
+    "bio": "",
   },
   {
     "position": "Events and Activities",
-    "name": "Nicholas Chockalingam",
-    "email": "nickchoc@iastate.edu",
+    "name": "Jack Wilkinson",
+    "email": "jtw1@iastate.edu",
     "image": eventsActivities,
-    "bio": "Nicholas is a Sophomore in Software Engineering from Rockford, Illinois. Along with being the Events and Activities Chair, Nicholas is the Public Relations Chair for HackISU and is a research assistant in the Civil Engineering department at Iowa State. Last summer he had an internship with United Technologies Aerospace Systems. In his freetime, Nicholas likes to play soccer with friends, go on bike rides, and watch movies.",
+    "bio": "",
   },
   {
     "position": "ESC Representative",
-    "name": "Isaiah Exley-Schuman",
-    "email": "isaiahe@iastate.edu",
+    "name": "Grayson Goss",
+    "email": "gtgoss@iastate.edu",
     "image": esc,
-    "bio": "Isaiah is in Electrical Engineering and represents IEEE before the ESC. In his free time, he repairs audio and game systems and plays games.",
+    "bio": "",
   },
   {
-    "position": "EE Curriculum & Project Chair",
-    "name": "Nihaal Sitaraman",
-    "email": "nihaals@iastate.edu",
+    "position": "EE Curriculum Chair",
+    "name": "Zachary Besta",
+    "email": "zbesta@iastate.edu",
     "image": ee,
-    "bio": "Nihaal is a Senior in Electrical Engineering from Rolling Meadows, IL. In addition to being the Project Co-Chair, he also takes part in various other clubs and competitions. He is the ESC Representative for Critical Tinkers, a member of Audio and Arduino club, and takes part in HackISU, and is an Eagle Scout. His background consists primarily of hardware, and he wants to focus on Semiconductors. He has interned as a Data Analyst for an IT staffing company, and as an R&D intern for a company in India that makes film capacitors. In his free time, Nihaal works on his projects (mostly related to audio), goes on hikes and bike rides, golfs, and plays PC games.",
+    "bio": "I am a junior in electrical engineering focusing on communications and signal processing. I also live on-campus and serve as the sustainability chair of my residence hall house. My hobbies include writing and playing music and reading.",
   },
   {
     "position": "CprE Curriculum Chair",
@@ -92,18 +95,26 @@ var members = [
   },
   {
     "position": "Web Chair",
-    "name": "Maxwell Talley",
-    "email": "mrtalley@iastate.edu",
+    "name": "Brett Altena",
+    "email": "bjaltena@iastate.edu",
     "image": web,
-    "bio": "Maxwell is a senior in software engineering from Shawnee, Kansas. In his free time, he likes to run, spend time with friends, and work on personal projects. Along with being Web Chair of IEEE, Max is a TA for SE 185. He spent the last two summers interning with Source Allies working in web and app development. He also spent last semester studying abroad in New Zealand.",
+    "bio": "I have been actively working on robotic projects each year foucsing on artificial intelligence utilizing data analytics. My future career will be based in Software Engineering either using object-oriented programming of developemnt of Big Data analysis tools. I enjoy listening to audio books, playing sand volleyball, and challenging my friends to any kind of game.",
   },
   {
-    "position": "Project Chair",
+    "position": "Project Co-Chair",
     "name": "Dennis Xu",
     "email": "dgxu@iastate.edu",
-    "image": project,
+    "image": project1,
     "bio": "Dennis is a senior computer engineering from John, Iowa. He is doing research in the field regarding sensor networks. He was also an intern for Western digital.",
   },
+  {
+    "position": "Project Co-Chair",
+    "name": "Shubham Sharma",
+    "email": "shubham@iastate.edu",
+    "image": project2,
+    "bio": "A coding enthusiast by day and probably a caffeine addict by night. I am a Junior in Computer Engineering here at Iowa State and love to meet new people. I have worked for the MyState app for over a year, been involved in hackathons, I have worked on many projects with IEEE and other clubs. So I believe my experience should help me be a successful member as a Project Chair at IEEE. ",
+  },
 ];
+
 
 export default members;
